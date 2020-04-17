@@ -96,7 +96,7 @@ controller is behaving as expected.
 Integration tests are the highest-level test, and they are closest to describing
 how a user will actually interact with our application. Commonly referred to as
 'End-to-End' tests, integration tests should flex your entire application stack
-(i.e., all of the MVC components) and rarely isolate components or behaviors.
+(i.e., all of the MVC components) and rarely isolated components or behaviors.
 They are perfect for spec'ing high level user interactions with HTML and forms.
 We're going to be learning how to write and read an integration test using a
 library called Capybara within an RSpec test suite.
